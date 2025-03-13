@@ -1,5 +1,4 @@
 import { Mail, Server, Database, Terminal, Coffee, Calendar, MapPin, Phone, User } from 'lucide-react';
-
 function App() {
   return (
     <div className="min-h-screen bg-slate-50">
@@ -9,7 +8,7 @@ function App() {
           <div className="flex flex-col items-center text-center">
             <div className="mb-8">
               <img 
-                src="/avatar.png" 
+                src="/resume/assets/avatar.png" 
                 alt="Luc Van Dat"
                 className="w-48 h-48 rounded-full border-4 border-white shadow-xl object-cover"
               />
